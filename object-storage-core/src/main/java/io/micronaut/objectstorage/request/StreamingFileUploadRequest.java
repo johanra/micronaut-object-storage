@@ -37,7 +37,6 @@ public class StreamingFileUploadRequest implements UploadRequest {
 
     @NonNull
     private Map<String, String> metadata;
-    
 
     public StreamingFileUploadRequest(@NonNull StreamingFileUpload streamingFileUpload) {
         this(streamingFileUpload, streamingFileUpload.getName(), Collections.emptyMap());
@@ -71,7 +70,6 @@ public class StreamingFileUploadRequest implements UploadRequest {
     public Optional<Long> getContentSize() {
         return Optional.of(streamingFileUpload.getSize());
     }
-    
 
     @NonNull
     @Override
