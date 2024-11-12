@@ -107,6 +107,7 @@ public interface UploadRequest {
      * @param streamingFileUpload the {@link StreamingFileUpload}.
      * @param key the key under which the file will be stored (<code>path/to/file</code>)
      * @return An {@link UploadRequest} from the given {@link StreamingFileUpload} and key.
+     * @since 2.7.0
      */
     @NonNull
     static UploadRequest fromStreamingFileUpload(@NonNull StreamingFileUpload streamingFileUpload,
