@@ -27,6 +27,7 @@ import io.micronaut.http.multipart.StreamingFileUpload;
 /**
  * 
  * An {@link UploadRequest} backed by a {@link StreamingFileUpload}.
+ * @since 2.7.0
  */
 public class StreamingFileUploadRequest implements UploadRequest {
 
