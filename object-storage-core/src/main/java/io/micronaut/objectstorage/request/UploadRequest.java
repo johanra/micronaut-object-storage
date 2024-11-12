@@ -96,6 +96,7 @@ public interface UploadRequest {
     /**
      * @param streamingFileUpload the {@link StreamingFileUpload}.
      * @return An {@link UploadRequest} from the given {@link StreamingFileUpload}.
+     * @since 2.7.0
      */
     @NonNull
     static UploadRequest fromStreamingFileUpload(@NonNull StreamingFileUpload streamingFileUpload) {
